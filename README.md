@@ -20,6 +20,20 @@ Se deben tener instaaldos los siguientes programas
 ![Imagen](https://github.com/camilaFetecua/CONTEO-LOC/blob/master/imagenes/imagendiagramarsw.PNG)
 
 
+## EJECUCION DEL PROYECTO
+Para ejecutar el proyecto debemos colina el repositorio con el siguiente comando:
+
+    git clone https://github.com/camilaFetecua/CONTEO-LOC.git
+ 
+ Debemos ir al directorio raiz y se debe ejecutar el comando:
+ 
+    mvn package
+  
+  Y al terminar se debe ejecutar el comando:
+ 
+    java -cp target/ConteoLoc-1.0-SNAPSHOT.jar edu.escuelaing.arsw.App phy categoria.java
+
+
 ## Descripción del diagrama de clases
 
 El diagrama de clases consta de cuatro clases y una interfaz. La clase APP es la clase 
