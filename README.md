@@ -7,9 +7,31 @@
  fisicas del archivo y el segundo es "loc" se cuentan todas las lineas con la excepcion de
  las lineas que sean comentarios y espacios.
 
+##Prerrequisistos 
+
+Se deben tener instaaldos los siguientes programas
+  + Git version 2.25.1
+  + Apavhe Maven version 4.0.0
+  + Java version 11.0.11
+
+
 ## Diagrama de clase
 
 ![Imagen](https://github.com/camilaFetecua/CONTEO-LOC/blob/master/imagenes/imagendiagramarsw.PNG)
+
+
+## EJECUCION DEL PROYECTO
+Para ejecutar el proyecto debemos colina el repositorio con el siguiente comando:
+
+    git clone https://github.com/camilaFetecua/CONTEO-LOC.git
+ 
+ Debemos ir al directorio raiz y se debe ejecutar el comando:
+ 
+    mvn package
+  
+  Y al terminar se debe ejecutar el comando:
+ 
+    java -cp target/ConteoLoc-1.0-SNAPSHOT.jar edu.escuelaing.arsw.App phy categoria.java
 
 
 ## Descripción del diagrama de clases
@@ -25,4 +47,4 @@ esta interfaz , estas son las clases LOCLineCounter y PHYLineCounter.
 ![Imagen](https://github.com/camilaFetecua/CONTEO-LOC/blob/master/imagenes/pruebasarsw.PNG)
 
 Autor
-+ **Maria Camila Fetecua Garcia** LOCS/Hora 200/12 = 17 LOCS/Hora
++ **Maria Camila Fetecua Garcia** LOCS/Hora 160/12 = 13 LOCS/Hora
