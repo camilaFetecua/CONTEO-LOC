@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CONTEO-LOC.iml" filepath="$PROJECT_DIR$/.idea/CONTEO-LOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CONTEO-LOC-ARSW.iml" filepath="$PROJECT_DIR$/CONTEO-LOC-ARSW.iml" />
     </modules>
   </component>
 </project>

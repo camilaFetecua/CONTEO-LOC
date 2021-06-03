@@ -1,18 +1,30 @@
 package edu.escuelaing.arsw;
 
+import edu.escuelaing.arsw.ConteoLoc.ContadorLinea;
+import edu.escuelaing.arsw.ConteoLoc.lectorArchivo;
+import edu.escuelaing.arsw.ConteoLoc.LOCLineCounter;
+import edu.escuelaing.arsw.ConteoLoc.PHYLineCounter;
+import java.io.IOException;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+public class App {
 
-public class App{
-    public static void main (String[] args){
-        String typeOfCount= args[0];
+    public static void main(String[] args) throws IOException{
+        String  typeOfCount= args[0];
         String fileName = args[1];
-    }
-    if(typeOfCount.equals("phy")){
-        // Escriba las lineas fisicas del codigo
-    }else if(typeOfCount.equals("loc")){
-        //Escriba las lineas de codigo encontradas
+        lectorArchivo lector = new lectorArchivo();
+        ContadorLinea lc = null;
+        switch (typeOfCount.toLowerCase()) {
+            case "phy":
+                lc = new PHYLineCounter();
+                break;
+            case "loc":
+                lc = new LOCLineCounter();
+                break;
+            default:
+                break;
+        }
+
+        lector.lectorArchivo(fileName,lc);
 
     }
 }

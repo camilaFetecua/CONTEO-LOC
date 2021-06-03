@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,10 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f9388fa-ca61-499b-b6e2-b70c852da50b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/ConteoLoc/leerArchivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/ConteoLoc/LOCLineCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/ConteoLoc/LOCLineCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/ConteoLoc/leerArchivo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,90 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager" selected="JUnit.AppTest.MalaCargarArchivo">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.escuelaing.arsw.App" />
+      <module name="CONTEO-LOC-ARSW" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;phy&quot;, &quot;Categoria.java&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.escuelaing.arsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="edu.escuelaing.arsw.App" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;phy&quot;, &quot;Categoria.java&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CONTEO-LOC-ARSW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.escuelaing.arsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.escuelaing.arsw" />
+      <option name="MAIN_CLASS_NAME" value="edu.escuelaing.arsw.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.CargadeArchivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CONTEO-LOC-ARSW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.escuelaing.arsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.escuelaing.arsw" />
+      <option name="MAIN_CLASS_NAME" value="edu.escuelaing.arsw.AppTest" />
+      <option name="METHOD_NAME" value="CargadeArchivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.MalaCargarArchivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CONTEO-LOC-ARSW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.escuelaing.arsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.escuelaing.arsw" />
+      <option name="MAIN_CLASS_NAME" value="edu.escuelaing.arsw.AppTest" />
+      <option name="METHOD_NAME" value="MalaCargarArchivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.AppTest.CargadeArchivo" />
+      <item itemvalue="JUnit.AppTest.MalaCargarArchivo" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.MalaCargarArchivo" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.CargadeArchivo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,9 +152,59 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622682814490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1622682814490" />
     <state x="791" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622606298397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="791" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1622606298397" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622682751339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1622682751339" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622677101971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1622677101971" />
+    <state width="1323" height="300" key="GridCell.Tab.0.bottom" timestamp="1622687843176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1622687843176" />
+    <state width="1323" height="300" key="GridCell.Tab.0.center" timestamp="1622687843176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1622687843176" />
+    <state width="1323" height="300" key="GridCell.Tab.0.left" timestamp="1622687843176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1622687843176" />
+    <state width="1323" height="300" key="GridCell.Tab.0.right" timestamp="1622687843176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1622687843176" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/escuelaing/arsw/AppTest.java</url>
+          <line>24</line>
+          <properties class="edu.escuelaing.arsw.AppTest" method="CargadeArchivo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/escuelaing/arsw/AppTest.java</url>
+          <line>35</line>
+          <properties class="edu.escuelaing.arsw.AppTest" method="MalaCargarArchivo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
